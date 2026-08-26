@@ -1,0 +1,8 @@
+{
+  "name": "The Glorious Gym / CROSSFIT",
+  "short_name": "Glorious Gym",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070808",
+  "theme_color": "#D7FF35"
+}
