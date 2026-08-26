@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found (404) | The Glorious Gym / CROSSFIT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Oswald:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <style>
+    .not-found-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+      background: radial-gradient(circle at center, rgba(215, 255, 53, 0.08) 0%, #070808 70%);
+    }
+    .error-code {
+      font-family: var(--font-heading);
+      font-size: clamp(6rem, 15vw, 12rem);
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 0.9;
+      text-shadow: 0 0 35px rgba(215, 255, 53, 0.35);
+      margin-bottom: 10px;
+    }
+    .error-tagline {
+      font-family: var(--font-heading);
+      font-size: clamp(1.6rem, 4vw, 2.5rem);
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .error-desc {
+      color: var(--text-secondary);
+      max-width: 500px;
+      margin-bottom: 35px;
+      font-size: 1.05rem;
+    }
+    .error-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="not-found-container">
+    <div class="logo-badge" style="width: 54px; height: 54px; font-size: 1.8rem; margin-bottom: 20px;">G</div>
+    <div class="error-code">404</div>
+    <h1 class="error-tagline">MISSED YOUR REP? THIS PAGE DOESN'T EXIST.</h1>
+    <p class="error-desc">
+      The workout or link you're looking for was moved, deleted, or never existed in the first place. Let's get you back on track to the gym floor.
+    </p>
+    <div class="error-actions">
+      <a href="./" class="btn btn-accent"><i class="fa-solid fa-house"></i> BACK TO HOME ARENA</a>
+      <a href="https://wa.me/919212055456" class="btn btn-whatsapp" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WHATSAPP SUPPORT</a>
+      <a href="https://maps.app.goo.gl/NyoDZQfQ3J8DxHcJA" class="btn btn-outline" target="_blank" rel="noopener"><i class="fa-solid fa-location-dot"></i> FIND THE GYM</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maps.app.goo.gl/NyoDZQfQ3J8DxHcJA

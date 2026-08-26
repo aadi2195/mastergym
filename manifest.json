@@ -1,0 +1,21 @@
+{
+  "name": "The Glorious Gym / CROSSFIT",
+  "short_name": "Glorious Gym",
+  "description": "Premier strength, CrossFit and functional fitness center in Sultanpuri, Delhi.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070808",
+  "theme_color": "#D7FF35",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%23070808'/><path d='M60 130 L90 60 L110 60 L140 130 L115 130 L108 110 L92 110 L85 130 Z' fill='%23D7FF35'/></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='100' fill='%23070808'/><path d='M160 350 L240 160 L290 160 L370 350 L305 350 L285 295 L245 295 L225 350 Z' fill='%23D7FF35'/></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
